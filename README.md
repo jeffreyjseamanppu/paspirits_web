@@ -12,9 +12,7 @@ A brief description of your project. Explain what the project does, its purpose,
 
 ---
 
-## 🚀 ![image](https://github.com/user-attachments/assets/4776231e-0a35-49ee-a42c-0441322d3f8b)
-
- Filtering on Page
+## Filtering on page ![image](https://github.com/user-attachments/assets/76f1d757-3682-4ee3-ba8c-efffba68b22c)
 
 ![Filtering on data on main page](https://github.com/jeffreyjseamanppu/paspirits_web/blob/main/images/paspiritsfilter.png)
 
