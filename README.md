@@ -6,9 +6,9 @@
 
 ## 📌 Description
 
-A brief description of your project. Explain what the project does, its purpose, and any key features.
+This an application that allows you to track, add and view local spirits in Pennsylvania
 
-> *"This project is a lightweight API that fetches weather data and displays it in a simple dashboard. It supports real-time updates and multiple locations."*
+> *"This project consist of the frontend that will allow you to connect to the backend"*
 
 ---
 
