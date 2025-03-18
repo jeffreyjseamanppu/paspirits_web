@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spirits Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background: #333;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+            margin: 0 10px;
+            background: #007bff;
+            transition: background 0.3s ease;
+        }
+
+        .navbar a:hover {
+            background: #0056b3;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            flex-direction: column;
+        }
+
+        .form-container {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 60%;
+            max-width: 800px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            margin-top: 10px;
+            display: block;
+            text-align: left;
+        }
+
+        input, select {
+            width: calc(100% - 20px);
+            padding: 12px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 16px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .submit-btn {
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            width: 150px;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .submit-btn:hover {
+            background: #0056b3;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="add-spirits.html">Add Spirits</a>
+        <a href="update-spirits.html">Update Spirits</a>
+    </div>
+
+    <div class="container">
+        <div class="form-container">
+            <h2>Submit Spirits Form</h2>
+            <form id="dataForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter spirit name" required>
+
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" placeholder="Enter city" required>
+
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state" placeholder="Enter state" required>
+
+                <label for="type">Type:</label>
+                <select id="type" name="type" required>
+                    <option value="">Select Type</option>
+                    <option value="Whiskey">Whiskey</option>
+                    <option value="Vodka">Vodka</option>
+                    <option value="Rum">Rum</option>
+                    <option value="Gin">Gin</option>
+                    <option value="Tequila">Tequila</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <div class="button-container">
+                    <button type="submit" class="submit-btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="submitForm.js"></script>
+
+</body>
+</html>
