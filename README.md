@@ -1,4 +1,4 @@
-# Project Name 🛠️
+# PA Spirits App 🛠️
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/project-name)
 ![GitHub contributors](https://img.shields.io/github/contributors/yourusername/project-name)
