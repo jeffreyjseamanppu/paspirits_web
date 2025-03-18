@@ -14,7 +14,7 @@ A brief description of your project. Explain what the project does, its purpose,
 
 ## 🚀 Demo
 
-![Project Screenshot](https://raw.githubusercontent.com/yourusername/project-name/main/images/demo.png)
+![Filtering on data on main page](https://github.com/jeffreyjseamanppu/paspirits_web/blob/main/images/paspiritsfilter.png)
 
 🔗 [Live Demo](https://yourwebsite.com)
 
