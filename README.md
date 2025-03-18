@@ -12,9 +12,8 @@ A brief description of your project. Explain what the project does, its purpose,
 
 ---
 
-## Filtering on page ![image](https://github.com/user-attachments/assets/76e08888-c93f-4387-aeec-e1d36b507a18)
+## Filtering on page <img width="20" alt="image" src="https://github.com/user-attachments/assets/462ed679-c358-4d2a-ad42-8105fbc3d065" />
 
-<img width="22" alt="image" src="https://github.com/user-attachments/assets/73d8512a-5935-4fac-8942-63d7fe450349" />
 
 
 ![Filtering on data on main page](https://github.com/jeffreyjseamanppu/paspirits_web/blob/main/images/paspiritsfilter.png)
